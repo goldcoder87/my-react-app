@@ -1,0 +1,10 @@
+var client = new stormpath.Client({
+    client: {
+      apiKey: AIzaSyDEEouWGGYsiDzPIPqqoEwOpCgNTB8HVdo{ 
+        id: config.get('STORMPATH_API_KEY_ID'),
+        secret: config.get('STORMPATH_API_KEY_SECRET')
+        }
+      }
+    });
+  application: my-react-app
+    href: https://api.stormpath.com/v1/applications/XXXX <-- YOUR APP HREF
